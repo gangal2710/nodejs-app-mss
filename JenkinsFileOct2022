@@ -3,7 +3,7 @@ node
 
 //Checkout Code stage
 stage('CheckoutCode'){
-git branch: 'development', credentialsId: '0bf969e1-8dcf-42ea-839d-225b30afadcc', url:'https://github.com/gangal2710/nodejs-app-mss.git'
+git credentialsId: '0bf969e1-8dcf-42ea-839d-225b30afadcc', url: 'https://github.com/gangal2710/nodejs-app-mss.git'
 }
 
 //Build
